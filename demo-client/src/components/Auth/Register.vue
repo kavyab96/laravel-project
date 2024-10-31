@@ -55,7 +55,10 @@ export default {
   },
   methods: {
     async registerUser() {
-      alert(11);
+      alert(12);
+      /// testing--------------------------
+
+      
       this.errorMessage = ''; // Reset error message
         // Make an API call to register the user
         const response = await this.$axios.post('/register', {
